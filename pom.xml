@@ -14,19 +14,6 @@
 	<packaging>war</packaging>
 	<name>Banking</name>
 	<description>Main Banking Service</description>
-	<properties>
-		<java.version>17</java.version>
-		<spring-cloud.version>2023.0.1</spring-cloud.version>
-		<!-- SonarQube server URL -->
-		<sonar.host.url>http://localhost:3000</sonar.host.url>
-		<!-- SonarQube project key -->
-		<sonar.projectKey>MicroservicesBanking</sonar.projectKey>
-		<!-- SonarQube project name -->
-		<sonar.projectName>MicroservicesBanking</sonar.projectName>
-		<!-- SonarQube project version -->
-		<sonar.projectVersion>1.0</sonar.projectVersion>
-		<sonar.login>sqp_ac98e0826efcd0ad69ac9ff25ddcc40695904e4e</sonar.login>
-	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
