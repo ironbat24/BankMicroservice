@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<title>
+		<head>ABC Banking Login</head>
+	</title>
+	<body style="background-color: bisque;">
+		<div style="align-content: center; text-align: center;">
+			<h1>Login Page<br>Enter your details:</h1>
+			<form th:action="@{/loggingin}" th:object="${custcredentials}" method="post" 		
+					style="max-width:min-content; margin: 0 auto;"> 
+			<label for="username">Username:</label> 
+			<input type="text" id="username" name="username" th:field="*{username}" required>
+			<label for="password">Password:</label> 
+			<input type="text" id="password" name="password" th:field="*{password}" required>
+			<button type="submit">Login</button> 
+			</form> 
+		</div>
+	</body>
+</html>
